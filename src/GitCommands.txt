@@ -1,0 +1,80 @@
+Uploading existing project to git
+==========================================================
+
+Create  a repository on github
+
+Set your username:
+git config --global user.name "FIRST_NAME LAST_NAME"
+
+Set your email address:
+git config --global user.email "MY_NAME@example.com"
+
+
+Initialize local repo to git repo
+git init 
+
+to git status
+git status
+
+
+ to add files to git index
+git add <filename>
+git add - A
+
+
+To commit your changes to stage server
+git commit -m "message"
+
+
+to add a your remote reporistory as origin 
+git remote add origin https://github.com/Iaarun/restAPIProject7AMAug.git
+
+push your code to master
+git push origin master
+
+
+
+=================================================================
+clone git project to your local 
+=================================================================
+
+clone project from git repo
+git clone https://github.com/Iaarun/restAPIProject7AMAug.git
+
+
+to take pull from master
+git pull origin master
+
+to create a branch 
+git branch <branchname>
+git branch mybranch
+
+
+to checkout to new branch 
+git checkout <branchname>'
+git checkout mybranch
+
+
+to create and checkout to new branch
+git checkout -b <branchname>
+git checkout -b mybranch
+
+
+to check your file status
+git status
+
+to add you code to git index
+git add <file name>
+
+to commit your changes to stage
+git commit -m "messages"
+
+to take pull form master
+git pull origin master
+
+push your chnages to your branch
+git push origin <branch name>
+create a pull request
+merge your pr 
+
+
